@@ -5,24 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Pagina non trovata | Dott.ssa Anna Alberico</title>
     <meta name="description" content="La pagina richiesta non e disponibile." />
-    <link rel="stylesheet" href="assets/styles.css" />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <script defer src="/assets/site.js"></script>
   </head>
   <body>
     <div class="site-shell">
-      <header class="site-header">
+      <header class="site-header" data-nav-root>
         <div class="container site-header__inner">
-          <a class="brand" href="index.html">
-            <span class="brand__text">
-              <strong>Dott.ssa Anna Alberico</strong>
-              <small>Psicologa</small>
-            </span>
-          </a>
-          <nav class="nav" aria-label="Navigazione principale">
-            <a href="index.html">Home</a>
-            <a href="profilo.html">Profilo</a>
-            <a href="aree-di-supporto.html">Aree di supporto</a>
-            <a href="contatti.html">Contatti</a>
+          <div class="site-header__bar">
+            <a class="brand" href="/">
+              <span class="brand__text">
+                <strong>Dott.ssa Anna Alberico</strong>
+                <small>Psicologa</small>
+              </span>
+            </a>
+            <button
+              class="nav-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="site-nav"
+              aria-label="Apri il menu di navigazione"
+              data-nav-toggle
+            >
+              <span class="nav-toggle__label">Menu</span>
+              <span class="nav-toggle__icon" aria-hidden="true"></span>
+            </button>
+          </div>
+          <nav class="nav" id="site-nav" aria-label="Navigazione principale">
+            <a href="/">Home</a>
+            <a href="/profilo">Profilo</a>
+            <a href="/aree-di-supporto">Aree di supporto</a>
+            <a href="/contatti">Contatti</a>
           </nav>
         </div>
       </header>
@@ -37,8 +51,8 @@
               tutti i miei riferimenti diretti.
             </p>
             <div class="actions">
-              <a class="button button--primary" href="index.html">Torna alla home</a>
-              <a class="button button--ghost" href="contatti.html">Vai ai contatti</a>
+              <a class="button button--primary" href="/">Torna alla home</a>
+              <a class="button button--ghost" href="/contatti">Vai ai contatti</a>
             </div>
           </div>
         </div>
@@ -54,10 +68,10 @@
           </div>
 
           <div class="site-footer__links" aria-label="Collegamenti utili">
-            <a href="index.html">Home</a>
-            <a href="profilo.html">Profilo</a>
-            <a href="aree-di-supporto.html">Aree di supporto</a>
-            <a href="contatti.html">Contatti</a>
+            <a href="/">Home</a>
+            <a href="/profilo">Profilo</a>
+            <a href="/aree-di-supporto">Aree di supporto</a>
+            <a href="/contatti">Contatti</a>
             <a href="mailto:dottoressaalberico@gmail.com">Email</a>
           </div>
         </div>

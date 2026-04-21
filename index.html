@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Dott.ssa Anna Alberico | Psicologa a Marcianise (CE) e online</title>
+    <title>Dott.ssa Anna Alberico | Psicologa a Marcianise (CE), con colloqui anche online</title>
     <meta
       name="description"
-      content="Psicologa a Marcianise (CE) e online. Approccio professionale, aree di supporto e contatti diretti della Dott.ssa Anna Alberico."
+      content="Psicologa a Marcianise (CE), con colloqui anche online. Approccio professionale, aree di supporto e contatti diretti della Dott.ssa Anna Alberico."
     />
     <link rel="canonical" href="https://dottssaannaalberico.it/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Dott.ssa Anna Alberico" />
-    <meta property="og:title" content="Dott.ssa Anna Alberico | Psicologa a Marcianise (CE) e online" />
+    <meta property="og:title" content="Dott.ssa Anna Alberico | Psicologa a Marcianise (CE), con colloqui anche online" />
     <meta
       property="og:description"
       content="Presentazione professionale, aree di supporto e contatti diretti della Dott.ssa Anna Alberico."
@@ -20,14 +20,14 @@
     <meta property="og:image" content="https://dottssaannaalberico.it/images/og-cover.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#f4efe7" />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/styles.css" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "ProfessionalService",
         "name": "Dott.ssa Anna Alberico",
-        "description": "Psicologa a Marcianise (CE) e online. Approccio professionale, aree di supporto e contatti diretti.",
+        "description": "Psicologa a Marcianise (CE), con colloqui anche online. Approccio professionale, aree di supporto e contatti diretti.",
         "url": "https://dottssaannaalberico.it/",
         "areaServed": ["Marcianise", "Caserta", "Online"],
         "telephone": "+393331258897",
@@ -39,22 +39,36 @@
         }
       }
     </script>
+    <script defer src="/assets/site.js"></script>
   </head>
   <body>
     <div class="site-shell">
-      <header class="site-header">
+      <header class="site-header" data-nav-root>
         <div class="container site-header__inner">
-          <a class="brand" href="index.html">
-            <span class="brand__text">
-              <strong>Dott.ssa Anna Alberico</strong>
-              <small>Psicologa</small>
-            </span>
-          </a>
-          <nav class="nav" aria-label="Navigazione principale">
-            <a href="index.html" aria-current="page">Home</a>
-            <a href="profilo.html">Profilo</a>
-            <a href="aree-di-supporto.html">Aree di supporto</a>
-            <a href="contatti.html">Contatti</a>
+          <div class="site-header__bar">
+            <a class="brand" href="/">
+              <span class="brand__text">
+                <strong>Dott.ssa Anna Alberico</strong>
+                <small>Psicologa</small>
+              </span>
+            </a>
+            <button
+              class="nav-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="site-nav"
+              aria-label="Apri il menu di navigazione"
+              data-nav-toggle
+            >
+              <span class="nav-toggle__label">Menu</span>
+              <span class="nav-toggle__icon" aria-hidden="true"></span>
+            </button>
+          </div>
+          <nav class="nav" id="site-nav" aria-label="Navigazione principale">
+            <a href="/" aria-current="page">Home</a>
+            <a href="/profilo">Profilo</a>
+            <a href="/aree-di-supporto">Aree di supporto</a>
+            <a href="/contatti">Contatti</a>
           </nav>
         </div>
       </header>
@@ -63,67 +77,73 @@
         <section class="hero">
           <div class="container hero__grid">
             <div class="hero__content">
-              <p class="eyebrow">Psicologa a Marcianise (CE), 81025 e online</p>
-              <h1 class="hero-title">Psicologa a Marcianise e online per adulti, giovani e famiglie.</h1>
+              <p class="eyebrow">Psicologa a Marcianise (CE), 81025, con colloqui anche online</p>
+              <h1 class="hero-title">Psicologa a Marcianise, con colloqui anche online per adulti, giovani e famiglie.</h1>
               <p class="hero__lead">
-                Mi occupo di sostegno psicologico e orientamento per chi attraversa momenti di fatica, cambiamento o
-                disorientamento e desidera un riferimento professionale chiaro.
+                Offro uno spazio di sostegno psicologico e orientamento per chi sta attraversando un momento delicato,
+                una fase di cambiamento o una fatica che chiede ascolto professionale.
               </p>
               <p class="hero__body">
-                Ricevo a Marcianise (CE) e online. Il primo contatto serve a comprendere meglio la richiesta e a
-                valutare insieme la modalita piu adatta.
+                Ricevo a Marcianise (CE) e svolgo colloqui anche online, cosi puoi iniziare o proseguire il percorso
+                con tranquillita anche da casa.
               </p>
 
               <div class="actions">
                 <a class="button button--primary" href="https://wa.me/393331258897" target="_blank" rel="noreferrer">
                   Contatta su WhatsApp
                 </a>
-                <a class="button button--ghost" href="contatti.html">Vai ai contatti</a>
+                <a class="button button--ghost" href="/contatti">Vai ai contatti</a>
               </div>
 
               <div class="pill-row">
                 <span class="pill">Ascolto professionale</span>
                 <span class="pill">Adulti, giovani e famiglie</span>
-                <span class="pill">Ricevo online e in presenza</span>
+                <span class="pill">Anche online da casa</span>
               </div>
             </div>
 
-            <div class="hero__visual">
-              <div class="hero__portrait">
-                <img
-                  src="images/anna-alberico-portrait.jpeg"
-                  alt="Ritratto professionale della Dott.ssa Anna Alberico"
-                  width="519"
-                  height="594"
-                />
+            <div class="hero__visual hero__visual--video">
+              <div class="hero__media hero__media--video">
+                <video
+                  class="hero__video"
+                  autoplay
+                  muted
+                  loop
+                  playsinline
+                  preload="metadata"
+                  poster="/assets/images/hero-poster.jpg"
+                  aria-label="Video introduttivo con atmosfera naturale"
+                >
+                  <source src="/assets/video/hero.mp4" type="video/mp4" />
+                </video>
               </div>
             </div>
           </div>
         </section>
 
         <section class="section">
-          <div class="container section-card grid grid-two section-split">
+          <div class="container section-card home-story">
             <div class="section-header">
-              <p class="eyebrow">Approccio</p>
-              <h2 class="section-title">Un modo di lavorare attento alla storia personale e alla realta del presente.</h2>
+              <p class="eyebrow">Presentazione</p>
+              <h2 class="section-title">Un riferimento professionale chiaro, attento alla persona e al suo contesto.</h2>
               <p class="section-lead">
-                Ogni richiesta viene accolta partendo dalla persona, dal suo percorso e dalla situazione concreta che
-                sta vivendo, senza forzare letture frettolose.
+                Ogni richiesta viene accolta partendo dalla storia individuale, dalle relazioni e dalla realta concreta
+                che la persona sta vivendo, senza semplificazioni o letture frettolose.
               </p>
             </div>
 
             <div class="feature-grid">
               <article class="subtle-card">
-                <h3>Ascolto e chiarezza</h3>
-                <p>Do spazio alla domanda della persona con un confronto ordinato, comprensibile e rispettoso.</p>
+                <h3>Ascolto ordinato</h3>
+                <p>Il primo confronto aiuta a dare forma alla domanda con parole comprensibili, serie e rispettose.</p>
               </article>
               <article class="subtle-card">
-                <h3>Contesto e relazioni</h3>
-                <p>Guardo anche al contesto familiare, scolastico o quotidiano in cui il disagio prende forma.</p>
+                <h3>Lettura del contesto</h3>
+                <p>Famiglia, scuola, lavoro e quotidianita entrano nella comprensione del disagio quando e utile farlo.</p>
               </article>
               <article class="subtle-card">
                 <h3>Orientamento del percorso</h3>
-                <p>Il primo colloquio aiuta a chiarire la richiesta e a capire con quale passo iniziare.</p>
+                <p>Il lavoro inizia individuando la modalita piu adatta, online oppure in presenza, con gradualita.</p>
               </article>
             </div>
           </div>
@@ -132,45 +152,80 @@
         <section class="section">
           <div class="container">
             <div class="section-header">
-              <p class="eyebrow">Aree di supporto</p>
+              <p class="eyebrow">Aree principali</p>
               <h2 class="section-title">Aree nelle quali ho maturato attenzione e formazione specifica.</h2>
               <p class="section-lead">
                 Alcuni temi richiedono una lettura accurata per il modo in cui incidono sulla vita personale,
-                relazionale e scolastica.
+                relazionale, scolastica e familiare.
               </p>
             </div>
 
             <div class="support-grid support-grid--home">
               <article class="support-card">
                 <h3>ADHD</h3>
-                <p>Presto attenzione alle difficolta che riguardano concentrazione, organizzazione e gestione della quotidianita.</p>
+                <p>Attenzione alle difficolta che riguardano concentrazione, organizzazione e gestione della quotidianita.</p>
               </article>
               <article class="support-card">
                 <h3>Autismo</h3>
-                <p>Mi occupo di situazioni che chiedono dialogo tra persona, famiglia, scuola e contesto educativo.</p>
+                <p>Lavoro nei casi in cui diventano centrali il dialogo con famiglia, scuola e contesto educativo.</p>
               </article>
               <article class="support-card">
                 <h3>Depressione</h3>
-                <p>Dedico attenzione ai vissuti di ritiro, stanchezza emotiva e perdita di slancio che possono comparire nel tempo.</p>
-                <a class="mini-link" href="aree-di-supporto.html#depressione">Approfondisci</a>
+                <p>Dedico attenzione ai vissuti di ritiro, stanchezza emotiva e perdita di slancio che possono emergere nel tempo.</p>
+                <a class="mini-link" href="/aree-di-supporto#depressione">Approfondisci</a>
               </article>
               <article class="support-card">
                 <h3>Disgrafia</h3>
                 <p>Considero le difficolta di apprendimento anche nei loro effetti sull'autostima e sul percorso scolastico.</p>
               </article>
             </div>
+
+            <div class="section-actions">
+              <a class="button button--ghost" href="/aree-di-supporto">Esplora tutte le aree di supporto</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container section-card editorial-split editorial-split--home">
+            <div class="stack">
+              <div>
+                <p class="eyebrow">Perche scegliere questo percorso</p>
+                <h2 class="section-title">Un lavoro misurato, sobrio e orientato alla comprensione del bisogno reale.</h2>
+                <p class="section-lead">
+                  L'obiettivo del primo contatto non e riempire la pagina di promesse, ma offrire un riferimento serio
+                  con cui chiarire la richiesta e valutare il passo piu utile.
+                </p>
+              </div>
+              <p class="body-copy">
+                Questo approccio tiene insieme ascolto, contesto e concretezza: tre elementi essenziali quando si cerca
+                un confronto affidabile e non generico.
+              </p>
+            </div>
+
+            <aside class="subtle-card stack context-panel">
+              <h3>Punti di valore</h3>
+              <ul class="list-clean">
+                <li>Primo orientamento chiaro e senza linguaggio superfluo</li>
+                <li>Attenzione a giovani, adulti e famiglie nelle diverse fasi della vita</li>
+                <li>Possibilita di iniziare online o in presenza in base alla situazione concreta</li>
+              </ul>
+            </aside>
           </div>
         </section>
 
         <section class="section">
           <div class="container">
-            <div class="contact-panel">
+            <div class="contact-panel contact-panel--compact">
               <div>
                 <p class="eyebrow">Contatti</p>
-                <h2 class="section-title">Contattarmi e semplice, sia telefonicamente sia online.</h2>
+                <h2 class="section-title">Un primo contatto semplice, diretto e leggibile.</h2>
                 <p class="section-lead">
-                  Puoi chiamarmi direttamente, scrivermi su WhatsApp oppure usare l'email se preferisci spiegare con
-                  piu calma il motivo del contatto.
+                  Puoi telefonare, scrivere su WhatsApp oppure usare l'email se preferisci spiegare con piu calma il
+                  motivo del contatto.
+                </p>
+                <p class="contact-panel__note">
+                  Il primo confronto serve a capire insieme come procedere, senza passaggi aggiuntivi o interfacce inutili.
                 </p>
               </div>
 
@@ -187,28 +242,10 @@
                   <span>Email</span>
                   <small>Per richieste piu articolate o comunicazioni piu distese</small>
                 </a>
-                <a class="contact-link" href="contatti.html">
+                <a class="contact-link" href="/contatti">
                   <span>Pagina contatti</span>
                   <small>Tutti i recapiti e i profili professionali in un'unica pagina</small>
                 </a>
-              </div>
-
-              <div class="process-strip" aria-label="Come avviene il primo contatto">
-                <article class="process-step">
-                  <strong>01</strong>
-                  <h3>Chiama o scrivi</h3>
-                  <p>Puoi scegliere se telefonare direttamente oppure inviare un messaggio WhatsApp.</p>
-                </article>
-                <article class="process-step">
-                  <strong>02</strong>
-                  <h3>Racconta brevemente il motivo del contatto</h3>
-                  <p>Bastano poche informazioni iniziali per capire la richiesta e darti una prima risposta.</p>
-                </article>
-                <article class="process-step">
-                  <strong>03</strong>
-                  <h3>Valuta il passo successivo</h3>
-                  <p>Nel confronto iniziale valutiamo insieme se proseguire online oppure in presenza.</p>
-                </article>
               </div>
             </div>
           </div>
@@ -220,15 +257,15 @@
           <div>
             <p class="site-footer__title">Dott.ssa Anna Alberico</p>
             <p class="site-footer__copy">
-              Ricevo a Marcianise (CE), 81025 e online. Telefono, WhatsApp ed email sono disponibili per un primo contatto.
+              Ricevo a Marcianise (CE), 81025, e svolgo colloqui anche online. Telefono, WhatsApp ed email sono disponibili per un primo contatto.
             </p>
           </div>
 
           <div class="site-footer__links" aria-label="Collegamenti utili">
-            <a href="profilo.html">Profilo</a>
-            <a href="aree-di-supporto.html">Aree di supporto</a>
-            <a href="contatti.html">Contatti</a>
-            <a href="privacy.html">Privacy</a>
+            <a href="/profilo">Profilo</a>
+            <a href="/aree-di-supporto">Aree di supporto</a>
+            <a href="/contatti">Contatti</a>
+            <a href="/privacy">Privacy</a>
             <a href="mailto:dottoressaalberico@gmail.com">Email</a>
           </div>
         </div>

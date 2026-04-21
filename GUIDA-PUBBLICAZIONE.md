@@ -13,6 +13,8 @@ Questa cartella e stata ripulita come progetto portfolio. La pubblicazione reale
    - email
    - LinkedIn
    - Instagram
+   - menu mobile
+   - video hero e poster
 
 ## File utili del pacchetto
 - `robots.txt`
@@ -21,9 +23,16 @@ Questa cartella e stata ripulita come progetto portfolio. La pubblicazione reale
 - `_redirects`
 - `_headers`
 
+## URL pubbliche canoniche
+- `/`
+- `/profilo`
+- `/aree-di-supporto`
+- `/contatti`
+- `/privacy`
+
 Nota:
 - `_redirects` e `_headers` non sono indispensabili per il portfolio locale.
-- Restano nel pacchetto come file opzionali di deploy per hosting che li supportano.
+- Nel deploy servono a mantenere una sola policy URL pubblica coerente, con redirect reali da `.html` e trailing slash verso le clean URL canoniche.
 
 ## Scelte di hosting possibili
 - `Netlify`: semplice per siti statici e adatta a deploy da cartella.

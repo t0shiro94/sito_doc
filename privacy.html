@@ -19,24 +19,38 @@
     <meta property="og:image" content="https://dottssaannaalberico.it/images/og-cover.jpg" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#f4efe7" />
-    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="assets/styles.css" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/assets/styles.css" />
+    <script defer src="/assets/site.js"></script>
   </head>
   <body>
     <div class="site-shell">
-      <header class="site-header">
+      <header class="site-header" data-nav-root>
         <div class="container site-header__inner">
-          <a class="brand" href="index.html">
-            <span class="brand__text">
-              <strong>Dott.ssa Anna Alberico</strong>
-              <small>Psicologa</small>
-            </span>
-          </a>
-          <nav class="nav" aria-label="Navigazione principale">
-            <a href="index.html">Home</a>
-            <a href="profilo.html">Profilo</a>
-            <a href="aree-di-supporto.html">Aree di supporto</a>
-            <a href="contatti.html">Contatti</a>
+          <div class="site-header__bar">
+            <a class="brand" href="/">
+              <span class="brand__text">
+                <strong>Dott.ssa Anna Alberico</strong>
+                <small>Psicologa</small>
+              </span>
+            </a>
+            <button
+              class="nav-toggle"
+              type="button"
+              aria-expanded="false"
+              aria-controls="site-nav"
+              aria-label="Apri il menu di navigazione"
+              data-nav-toggle
+            >
+              <span class="nav-toggle__label">Menu</span>
+              <span class="nav-toggle__icon" aria-hidden="true"></span>
+            </button>
+          </div>
+          <nav class="nav" id="site-nav" aria-label="Navigazione principale">
+            <a href="/">Home</a>
+            <a href="/profilo">Profilo</a>
+            <a href="/aree-di-supporto">Aree di supporto</a>
+            <a href="/contatti">Contatti</a>
           </nav>
         </div>
       </header>
@@ -91,9 +105,9 @@
             <article class="legal-block">
               <h2>Media locali</h2>
               <p>
-                Le immagini presenti nel sito sono caricate localmente nel pacchetto statico e vengono utilizzate per
-                la presentazione del profilo professionale. Non vengono pubblicati materiali riferiti a pazienti o ad
-                attivita clinica documentata.
+                Le immagini e il video introduttivo presenti nel sito sono caricati localmente nel pacchetto statico e
+                vengono utilizzati esclusivamente per la presentazione del profilo professionale. Non vengono pubblicati
+                materiali riferiti a pazienti o ad attivita clinica documentata.
               </p>
             </article>
 
@@ -118,10 +132,10 @@
           </div>
 
           <div class="site-footer__links" aria-label="Collegamenti utili">
-            <a href="index.html">Home</a>
-            <a href="contatti.html">Contatti</a>
-            <a href="profilo.html">Profilo</a>
-            <a href="aree-di-supporto.html">Aree di supporto</a>
+            <a href="/">Home</a>
+            <a href="/contatti">Contatti</a>
+            <a href="/profilo">Profilo</a>
+            <a href="/aree-di-supporto">Aree di supporto</a>
             <a href="mailto:dottoressaalberico@gmail.com">Email</a>
           </div>
         </div>
