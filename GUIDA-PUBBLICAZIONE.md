@@ -25,14 +25,15 @@ Questa cartella e stata ripulita come progetto portfolio. La pubblicazione reale
 
 ## URL pubbliche canoniche
 - `/`
-- `/profilo`
-- `/aree-di-supporto`
-- `/contatti`
-- `/privacy`
+- `/profilo/`
+- `/aree-di-supporto/`
+- `/contatti/`
+- `/privacy/`
 
 Nota:
 - `_redirects` e `_headers` non sono indispensabili per il portfolio locale.
-- Nel deploy servono a mantenere una sola policy URL pubblica coerente, con redirect reali da `.html` e trailing slash verso le clean URL canoniche.
+- Con `Netlify`, le `Pretty URLs` standardizzano le pagine sulla variante con slash finale.
+- Per questo il file `_redirects` mantiene solo i redirect legacy da `.html` verso le URL canoniche pubbliche.
 
 ## Scelte di hosting possibili
 - `Netlify`: semplice per siti statici e adatta a deploy da cartella.
@@ -41,6 +42,6 @@ Nota:
 
 ## Quando si decidera la pubblicazione reale
 La fase successiva dovra fissare:
-1. hosting scelto
-2. dominio finale
-3. eventuale adattamento di URL, canonical e file di deploy al provider scelto
+1. dominio primario finale
+2. eventuale alias `www`
+3. verifica finale di canonical, sitemap e redirect sul deploy di produzione

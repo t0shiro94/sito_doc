@@ -26,8 +26,8 @@ Uso locale:
 Note progetto:
 - Il sito e pensato come portfolio personale e base pronta per una futura pubblicazione online.
 - I contenuti visibili sono stati rifiniti in chiave professionale e in prima persona.
-- Le URL pubbliche previste sono: /, /profilo, /aree-di-supporto, /contatti e /privacy.
-- I file _redirects e _headers restano facoltativi: sono utili solo se in futuro verra scelto un hosting che li supporta.
+- Le URL pubbliche previste su Netlify sono: /, /profilo/, /aree-di-supporto/, /contatti/ e /privacy/.
+- Il file _redirects contiene solo redirect legacy da .html verso le URL canoniche; la normalizzazione con slash finale e demandata alle Pretty URLs di Netlify.
 
 Asset attivi:
 - Ritratto principale in images/anna-alberico-portrait.jpeg

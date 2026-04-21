@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dottssaannaalberico.it/sitemap.xml
+Sitemap: https://annaalberico.com/sitemap.xml
